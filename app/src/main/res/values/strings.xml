@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">条码识别</string>
+    <string name="title_activity_qr">扫一扫</string>
+</resources>
