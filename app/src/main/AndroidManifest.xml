@@ -13,6 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CodeDetection">
         <activity
+            android:name=".CodeEncodingActivity"
+            android:exported="false"
+            android:label="CodeGenerate" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

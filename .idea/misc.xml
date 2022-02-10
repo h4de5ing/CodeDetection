@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/code/AndroidCode/CodeDetection/app/src/main/res/layout/activity_code_encoding.xml" value="0.28940217391304346" />
+        <entry key="..\:/code/AndroidCode/CodeDetection/app/src/main/res/layout/activity_main.xml" value="0.2921195652173913" />
+        <entry key="..\:/code/AndroidCode/CodeDetection/app/src/main/res/menu/main.xml" value="0.3494791666666667" />
         <entry key="..\:/repository/CodeDetection/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/repository/CodeDetection/app/src/main/res/layout/activity_zxing.xml" value="0.33" />
       </map>

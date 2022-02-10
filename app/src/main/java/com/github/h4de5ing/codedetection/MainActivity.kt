@@ -4,6 +4,8 @@ import android.Manifest
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
@@ -29,5 +31,17 @@ class MainActivity : AppCompatActivity() {
                 Log.d("gh0st", "授权结果:${granted}")
             }
         requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.codegen) {
+            startActivity(Intent(this, CodeEncodingActivity::class.java))
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
